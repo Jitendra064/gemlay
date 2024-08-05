@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ProductOne from "./components/ProductOne";
 import RingPage from "./components/Ringpage";
+import Option from "./components/Option";
 
 const App = () => {
   return (
@@ -15,8 +16,11 @@ const App = () => {
 
       {/* <ProductOne /> */}
       <RingPage />
-      {/* FOOTER SECTION  */}
 
+      {/* option section  */}
+      <Option />
+
+      {/* FOOTER SECTION  */}
       <Footer />
     </div>
   );

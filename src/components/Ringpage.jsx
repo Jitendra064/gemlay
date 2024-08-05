@@ -6,10 +6,26 @@ const RingPage = () => {
   const [selectedKarat, setSelectedKarat] = useState("18K");
   const [selectedQuality, setSelectedQuality] = useState("IJ-SI");
   const [selectedMetal, setSelectedMetal] = useState("Yellow Gold");
-  const [ringSize, setRingSize] = useState("12");
+  // const [ringSize, setRingSize] = useState("12");
+
+  const [ringSize, setRingSize] = useState("");
+  const [pincode, setPincode] = useState("");
+
+  const handleRingSizeChange = (event) => {
+    setRingSize(event.target.value);
+  };
+
+  const handlePincodeChange = (event) => {
+    setPincode(event.target.value);
+  };
+
+  const locateMe = () => {
+    // Add your logic to locate the user here
+    console.log("Locate Me clicked");
+  };
 
   return (
-    <div className="ring-page">
+    <div className="ring-page ">
       <div className="ring-image">
         <img
           src="src/assets/image/Chavvi-Diamond-Ring_YA_01.jpg"
@@ -19,7 +35,7 @@ const RingPage = () => {
           PRODUCT SHOWN IN 10X ZOOM FOR YOUR CLARITY
         </div>
       </div>
-      <div className="ring-details">
+      <div className="ring-details ">
         <div className="ring_heading">
           <div>
             <h1>Chavvi Diamond Ring</h1>
@@ -105,19 +121,6 @@ const RingPage = () => {
                   </button>
                 </div>
               </div>
-
-              <div className="option">
-                <label>Size:</label>
-                <select
-                  value={ringSize}
-                  onChange={(e) => setRingSize(e.target.value)}
-                >
-                  <option value="12">12</option>
-                  <option value="13">13</option>
-                  <option value="14">14</option>
-                  {/* Add more sizes as needed */}
-                </select>
-              </div>
             </div>
           </div>
           <div className="col-lg-6">
@@ -141,20 +144,45 @@ const RingPage = () => {
               </div>
             </div>
 
-            <div className="option">
-              <p>
-                Size : <span>12</span>
-              </p>
+            {/* size option  */}
+
+            <div className="tim">
+              <div className="ring-size">
+                <label>Size :</label>
+                <select value={ringSize} onChange={handleRingSizeChange}>
+                  {[...Array(13)].map((_, index) => (
+                    <option key={index} value={index + 1}>
+                      {index + 1}
+                    </option>
+                  ))}
+                </select>
+                <div className="ring-size-help">Not Sure about Ring Size?</div>
+              </div>
+
+              <div className="delivery-store">
+                <label>Delivery & Store Details</label>
+                <input
+                  type="text"
+                  className="input_11"
+                  placeholder="Enter Pincode"
+                  value={pincode}
+                  onChange={handlePincodeChange}
+                />
+                <button onClick={locateMe} className="btn90">
+                  Locate Me
+                </button>
+              </div>
             </div>
           </div>
         </div>
 
         <button className="wishlist-button">ADD TO WISHLIST</button>
-        <div className="availability">
-          <label>Delivery & Store Details</label>
-          <input type="text" placeholder="Enter Pincode" />
-          <button>Locate Me</button>
-        </div>
+        <button className="wishlist-button mx-3 ">
+          Checking Availability{" "}
+          <span className="spinner-border spinner-border-sm mx-1" role="status">
+            <span className="visually-hidden">Loading...</span>
+          </span>
+        </button>
       </div>
     </div>
   );
