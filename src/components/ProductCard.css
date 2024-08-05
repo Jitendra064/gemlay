@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.card_bar {
+    border: 2px solid;
+}
+
+.section-heading {
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.section-heading h2 {
+    display: inline-block;
+    position: relative;
+    font-family: "Roboto";
+    font-size: 24px;
+    color: black;
+    margin: 0;
+}
+
+.section-heading h2::before,
+.section-heading h2::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 2px;
+    background: #333;
+}
+
+.section-heading h2::before {
+    left: -60px;
+}
+
+.section-heading h2::after {
+    right: -60px;
+}
+
+.section-heading p {
+    font-family: Arial, sans-serif;
+    font-size: 21px;
+    color: #999;
+    margin-top: 10px;
+}
+
+.card_bar {
+    display: flex;
+}

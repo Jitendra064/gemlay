@@ -1,0 +1,137 @@
+.card_body {
+    height: 84px;
+    border-radius: 20px;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.card img {
+    width: 179px;
+    transition: all 0.5s;
+}
+
+.card_title {
+    font-size: 14px;
+    color: beige;
+    color: #000000c7;
+}
+
+.card-img-top:hover {
+    transform: scale(1.2);
+}
+
+
+.card_text {
+    color: #a5a5a5;
+    font-size: 14px;
+
+}
+
+
+.divOne {
+    height: 15px;
+    width: 15px;
+    background-color: rgba(255, 0, 0, 0.508);
+    margin: 5px 0px;
+    border-radius: 25px;
+}
+
+.divTwo {
+    height: 15px;
+    width: 15px;
+    background-color: rgba(92, 21, 150, 0.382);
+    border-radius: 25px;
+    margin: 5px 0px;
+}
+
+.divThree {
+    height: 15px;
+    width: 15px;
+    background-color: rgba(21, 15, 15, 0.479);
+    border-radius: 25px;
+    margin: 5px 0px;
+}
+
+.cardOption {
+    position: relative;
+    top: -73px;
+    display: inline;
+    width: 10px;
+    float: inline-end;
+
+}
+
+
+.footer_end {
+    display: flex;
+    color: #fff;
+}
+
+.view-similar {
+    position: relative;
+    text-decoration: none;
+    color: #000b1c;
+    font-size: 6px;
+    background-color: #fff(238, 233, 233);
+    cursor: pointer;
+    width: 50%;
+    display: inline-flex;
+}
+
+/* .view-similar img {} */
+
+/* .view-similar p {} */
+
+.buy-now {
+    position: relative;
+    color: #000b1c;
+    font-size: 11px;
+    background-color: red;
+    cursor: pointer;
+    width: 50%;
+    display: inline-flex;
+    border-top-left-radius: 45px;
+    background-image: linear-gradient(to bottom, #080d2e,
+            #33331cb5);
+    color: #fff;
+    padding: 8px 35px;
+}
+
+
+
+
+
+
+
+
+/* card  footer css  */
+
+/* .card_footer {
+    padding: 10px;
+}
+
+.view-similar img {
+    width: 20px;
+}
+
+.view-similar {
+    position: relative;
+    text-decoration: none;
+    color: #000b1c;
+    font-size: 11px;
+    margin: 10px 0px 0px 0px;
+    background-color: red;
+    cursor: pointer;
+}
+
+.buy-now {}
+
+.buy-now:hover {
+    color: #fff;
+}
+
+.view-similar:hover {
+    color: #000409;
+} */

@@ -1,0 +1,15 @@
+.navbar_two {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #0000005c;
+
+    width: 100%;
+    box-shadow: 0px 2px 3px #00000059;
+}
+
+.navbar_two p {
+    font-size: 14px;
+    position: relative;
+    top: 8px;
+    cursor: pointer;
+}
