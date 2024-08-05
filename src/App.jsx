@@ -24,7 +24,6 @@ const App = () => {
       <ProductCard />
 
       {/* <ProductOne /> */}
-      <RingPage />
 
       {/* option section  */}
       <Option />

@@ -7,7 +7,7 @@ const Card = () => {
       <div className="col">
         <div className="card h-100">
           <img
-            src="./src/assets/image/Chavvi-Diamond-Ring_YD_04.jpg"
+            src="https://cdn.gemlay.com/media1/garnet/product/images/rings/LR-2152-GL/images/Chavvi-Diamond-Ring_YA.jpg"
             className="card-img-top"
             alt="..."
           />
@@ -21,14 +21,7 @@ const Card = () => {
             </div>
           </div>
           <div className="footer_end ">
-            <div className="view-similar">
-              {/* <img
-                src="https://www.gemlay.com/img/card/viewSimilar.svg"
-                alt=""
-                height="10px"
-              /> */}
-              {/* <p> View Similar</p> */}
-            </div>
+            <div className="view-similar"></div>
             <div className=" buy-now bg-info text-center">Buy Now</div>
           </div>
         </div>
