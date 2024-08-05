@@ -54,10 +54,6 @@ const RingPage = () => {
       <div className="ring-image">
         <img src={Arr[index]} alt="Chavvi Diamond Ring" className="origin" />
         <div className="symbol_slider">
-          {/* <p className="previous round" onClick={prev}>
-            &#8249;
-          </p> */}
-
           <img
             width="30"
             height="36"

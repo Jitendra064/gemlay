@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="bg-light pt-4">
       <div className="row bg-light container-fluid ">
-        <div className="col border-col">
+        <div className="col-lg-2 col-md-4 border-col">
           <div className="footer-col">
             <h6>OUR SERVICE</h6>
 
@@ -28,7 +28,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="col border-col">
+        <div className="col-lg-3 col-md-4 border-col">
           <div className="footer-col">
             <h6>OUR POLICIES</h6>
 
@@ -78,7 +78,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="col border-col">
+        <div className="col-lg-3 col-md-4 border-col">
           <div className="footer-col">
             <h6>JEWELLERY KNOWLEDGE</h6>
 
@@ -146,7 +146,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="col border-col">
+        <div className="col-lg-2 col-md-4 border-col">
           <div className="footer-col">
             <h6>ABOUT US</h6>
 
@@ -205,7 +205,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="col">
+        <div className="col-lg-2 col-md-4">
           <div className="footer-collum">
             <h6>Get in touch</h6>
 

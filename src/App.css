@@ -1,0 +1,217 @@
+.phonenavbar {
+    display: none;
+}
+
+.phoneFooter {
+    display: none;
+}
+
+@media (min-width:500px) and (max-width:1015px) {
+    /* body {
+        background-color: rgba(0, 0, 255, 0.285);
+    } */
+
+    .ring-page {
+        flex-direction: column;
+    }
+
+    .col90 {
+        height: 463px;
+    }
+
+    .card {
+        width: 300px;
+        margin-top: 16px;
+        border-radius: 27px;
+    }
+
+
+
+    .navbar-icon {
+        padding-right: 5px;
+        font-size: 13px;
+    }
+
+    .option_55 {
+        width: 221px;
+    }
+
+    .btn90 {
+        padding: 8px 16px;
+        font-size: 11px;
+    }
+
+    .ring-details {
+        height: 71vh;
+    }
+
+    .ring-image img {
+        width: 100%;
+    }
+
+    .symbol_slider {
+        left: 77%;
+        bottom: 5%;
+    }
+
+    .tim {
+        padding: 0;
+    }
+
+}
+
+@media (max-width:1300px) and (min-width: 1000px) {
+    .option_55 {
+        width: 221px;
+    }
+
+    .button_34,
+    .button_35 {
+        padding: 18px 48px;
+        font-size: 13px
+    }
+
+    .icon_menu {
+        padding-left: 80px;
+    }
+}
+
+@media (max-width:1056px) and (min-width: 777px) {
+
+    .ring-page {
+        flex-direction: column;
+    }
+
+    .icon_menu {
+        padding-left: 21px;
+    }
+
+    .ring-image img {
+        width: 100%;
+    }
+}
+
+@media (max-width:992px) and (min-width: 777px) {
+    .icon_menu {
+        padding-left: 40px;
+    }
+
+    .ring-page {
+        flex-direction: column;
+    }
+
+    .logo-image {
+        height: 42px;
+        margin-top: 16px;
+    }
+
+    .sign_up p img {
+        height: 29px;
+    }
+
+    .pincode_top span {
+        position: relative;
+        top: -21px;
+        margin: 1px 6px;
+    }
+
+    .border-col {
+        margin-top: 26px;
+
+
+    }
+
+    .footer-collum {
+        margin-top: 32px;
+    }
+
+    .ring-image img {
+        width: 100%;
+    }
+
+    .tim {
+        padding: 0;
+    }
+
+    .destopNavbar {
+        display: none;
+    }
+
+    .phonenavbar {
+        display: block;
+    }
+
+    .destopFooter {
+        display: none;
+
+    }
+
+    .phoneFooter {
+        display: block;
+    }
+}
+
+@media screen and (max-width:894px) {
+
+
+    .destopNavbar {
+        display: none;
+    }
+
+    .phonenavbar {
+        display: block;
+    }
+
+    .destopFooter {
+        display: none;
+
+    }
+
+    .phoneFooter {
+        display: block;
+    }
+
+    .ring-details {
+        padding: 0;
+        width: 109%;
+    }
+
+    .ring-page {
+        flex-direction: column;
+    }
+
+    .ring-image img {
+        width: 100%;
+    }
+
+    /* .row_item {
+        background-color: rgb(255, 136, 0);
+    } */
+
+    .col90 {
+        height: 34vh;
+        width: 47vw;
+        display: flex;
+        margin-top: 10px;
+
+    }
+
+    .main_header {
+        border-color: aqua;
+    }
+
+    .buy-now {
+        width: 63%;
+    }
+
+    .button_34,
+    .button_35 {
+        padding: 15px 31px;
+        font-size: 11px;
+    }
+
+    .tim {
+        padding: 0;
+    }
+
+}

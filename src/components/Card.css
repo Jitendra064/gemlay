@@ -5,6 +5,7 @@
 
 .card {
     overflow: hidden;
+    width: 241px;
 }
 
 .card img {
@@ -90,7 +91,7 @@
     font-size: 11px;
     background-color: red;
     cursor: pointer;
-    width: 50%;
+    width: 52%;
     display: inline-flex;
     border-top-left-radius: 45px;
     background-image: linear-gradient(to bottom, #080d2e,

@@ -4,7 +4,7 @@ import "./Card.css";
 const Card = () => {
   return (
     <div>
-      <div className="col">
+      <div className="col col90">
         <div className="card h-100">
           <img
             src="https://cdn.gemlay.com/media1/garnet/product/images/rings/LR-2152-GL/images/Chavvi-Diamond-Ring_YA.jpg"

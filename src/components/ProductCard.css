@@ -5,6 +5,14 @@
     border: 2px solid;
 }
 
+
+.row_item {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    justify-content: space-evenly;
+}
+
 .section-heading {
     margin-top: 100px;
     text-align: center;

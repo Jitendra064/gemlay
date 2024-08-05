@@ -26,9 +26,9 @@ const Navbar = () => {
       </div>
       <header className="navbar_one container-fluid">
         <div className="row d-flex justify-content-between ">
-          <div className="col-lg-6 ">
+          <div className="col-lg-6  col-md-6 ">
             <div className="row d-flex justify-content-between">
-              <div className="col-lg-4 ">
+              <div className="col-lg-4 col-md-4 ">
                 <div className="navbar-brand">
                   <a href="#">
                     <img
@@ -39,14 +39,14 @@ const Navbar = () => {
                   </a>
                 </div>
               </div>
-              <div className="col-lg-7 input_field">
+              <div className="col-lg-7 col-md-7 input_field">
                 <input type="text" placeholder="Search Products...." />
               </div>
             </div>
           </div>
-          <div className="col-lg-6 ">
+          <div className="col-lg-6 col-md-6  ">
             <div className="row d-flex justify-content-evenly pt-2">
-              <div className="col-lg-8 icon_menu">
+              <div className="col-lg-8 col-md-8 icon_menu">
                 <div className="navbar-icon text-center border-end">
                   <img
                     src="https://www.gemlay.com/assets/header/gsp.svg"
@@ -80,7 +80,7 @@ const Navbar = () => {
                   <span>VARIFY REPORT</span>
                 </div>
               </div>
-              <div className="col-lg-4 text-center sign_up">
+              <div className="col-lg-4 col-md-4 text-center sign_up">
                 <p>
                   <img
                     src="https://www.gemlay.com/profile/profile.svg"
