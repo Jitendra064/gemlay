@@ -1,0 +1,187 @@
+/* src/components/RingPage.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.ring-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+
+.ring-image {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ring-image img {
+    width: 80%;
+}
+
+.zoom-note {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #999;
+}
+
+.ring-details {
+    flex: 1;
+    padding: 20px;
+
+}
+
+.ring_heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ring-details h1 {
+    font-family: "Mukta", sans-serif;
+    font-size: 22px;
+    font-weight: 300
+}
+
+
+.ring-details h2 {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 10px 10px 10px 0px;
+
+}
+
+.ring_34 {
+    font-family: "Mukta", sans-serif;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.651);
+
+}
+
+.options {
+    margin-top: 20px;
+}
+
+.option {
+    margin-bottom: 10px;
+}
+
+.option p {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.option p span {
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.buttons {
+    display: flex;
+    /* gap: 10px; */
+    margin-top: 5px;
+    display: flow-root;
+}
+
+.button_44 button {
+    height: 38px;
+    width: 38px;
+    border-radius: 100%;
+    border: none;
+    margin: 0px 4px;
+}
+
+.button_45 button {
+    background-color: #4CAF50;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    border: none;
+    margin: 0px 4px;
+}
+
+.option_44 button {
+
+    border: none;
+    border-radius: 20px;
+    padding: 5px 39px;
+    border: 1px solid #0000007a;
+    background-color: #fff;
+}
+
+.option_55 {
+    width: 430px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button_55 button {
+    border: none;
+    border-radius: 20px;
+    padding: 5px 39px;
+    background-color: #fff;
+    margin: 3px;
+    border: 1px solid #00000061;
+}
+
+.button_45 button:nth-child(1) {
+    background-color: yellow;
+
+}
+
+.button_45 button:nth-child(2) {
+    background-color: palevioletred;
+}
+
+.button_45 button:nth-child(3) {
+    background-color: red;
+}
+
+.buttons button.selected {
+    border-color: #4CAF50;
+    background-color: #e8f5e9;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+
+
+}
+
+.wishlist-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.availability {
+    margin-top: 20px;
+}
+
+.availability label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.availability input {
+    padding: 5px;
+    width: calc(100% - 22px);
+    margin-right: 10px;
+}
+
+.availability button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
