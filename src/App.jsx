@@ -2,9 +2,14 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+
 import RingPage from "./components/Ringpage";
 import Option from "./components/Option";
 import ProductCard from "./components/ProductCard";
+
+import ProductOne from "./components/ProductOne";
+import RingPage from "./components/Ringpage";
+import Option from "./components/Option";
 
 const App = () => {
   return (
@@ -19,6 +24,9 @@ const App = () => {
       {/* product card section  */}
 
       <ProductCard />
+
+      {/* <ProductOne /> */}
+      <RingPage />
 
       {/* option section  */}
       <Option />

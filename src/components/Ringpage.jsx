@@ -8,8 +8,8 @@ const RingPage = () => {
   const [selectedMetal, setSelectedMetal] = useState("Yellow Gold");
 
   const [index, setIndex] = useState(0);
-  const [color, setColor] = useState("");
   const [ringSize, setRingSize] = useState("");
+  s;
   const [pincode, setPincode] = useState("");
 
   let Arr = [
