@@ -5,8 +5,7 @@
 
 * {
     font-family: "Roboto", sans-serif;
-    <<<<<<< HEAD=======font-weight: 300;
-    >>>>>>>0120537fa840e3b162491a94f3ea22d95ff89a24
+    font-weight: 300;
 }
 
 .ring-page {
@@ -73,8 +72,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    <<<<<<< HEAD position: relative;
-    =======>>>>>>>0120537fa840e3b162491a94f3ea22d95ff89a24
+    position: relative;
+
 }
 
 .ring-image img {
@@ -89,10 +88,9 @@
 
 .ring-details {
     flex: 1;
-    <<<<<<< HEAD
     /* padding: 20px; */
-    =======padding: 20px;
-    >>>>>>>0120537fa840e3b162491a94f3ea22d95ff89a24 background-color: #f6f6f6a3;
+    padding: 20px;
+    background-color: #f6f6f6a3;
 
 }
 
@@ -224,8 +222,8 @@
     border: none;
     cursor: pointer;
     border-radius: 10px;
-    <<<<<<< HEAD=======background-image: linear-gradient(#010102, #020a2169);
-    >>>>>>>0120537fa840e3b162491a94f3ea22d95ff89a24
+    background-image: linear-gradient(#010102, #020a2169);
+
 }
 
 
@@ -298,7 +296,7 @@ select,
 
 .btn90:hover {
     background-color: #0056b3;
-    <<<<<<< HEAD
+
 }
 
 

@@ -9,7 +9,7 @@ const RingPage = () => {
 
   const [index, setIndex] = useState(0);
   const [ringSize, setRingSize] = useState("");
-  s;
+
   const [pincode, setPincode] = useState("");
 
   let Arr = [
