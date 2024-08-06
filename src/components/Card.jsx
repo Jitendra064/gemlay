@@ -6,11 +6,13 @@ const Card = () => {
     <div>
       <div className="col col90">
         <div className="card h-100">
-          <img
-            src="https://cdn.gemlay.com/media1/garnet/product/images/rings/LR-2152-GL/images/Chavvi-Diamond-Ring_YA.jpg"
-            className="card-img-top"
-            alt="..."
-          />
+          <div style={{ overflow: "hidden" }}>
+            <img
+              src="https://cdn.gemlay.com/media1/garnet/product/images/rings/LR-2152-GL/images/Chavvi-Diamond-Ring_YA.jpg"
+              className="card-img-top"
+              alt="..."
+            />
+          </div>
           <div className="card-body card_body">
             <h5 className="card-title">&#8377;33,908</h5>
             <p className="card-text">supporting text</p>
