@@ -80,7 +80,7 @@ const RingPage = () => {
         </div>
       </div>
       <div className="ring-details ">
-        <div className="p-4">
+        <div className="p-3">
           <div className="ring_heading">
             <div>
               <h1>Chavvi Diamond Ring</h1>
@@ -230,12 +230,12 @@ const RingPage = () => {
 
         <div className="Two_btn">
           <div className="button-container">
-            <div>
+            <div className="btn908">
               <a href="#" className="button_34">
                 ADD TO WISHLIST
               </a>
             </div>
-            <div>
+            <div className="btn908">
               <a href="#" className="button_35">
                 Checking Avilablity
                 <span

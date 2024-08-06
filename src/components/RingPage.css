@@ -105,6 +105,10 @@
     font-weight: 300
 }
 
+.btn908 {
+    height: 36px;
+}
+
 
 .ring-details h2 {
     font-size: 18px;
@@ -177,7 +181,6 @@
 }
 
 .option_55 {
-    width: 400px;
     display: flex;
     flex-wrap: wrap;
 }

@@ -230,9 +230,7 @@
         bottom: 0%;
     }
 
-    .option_55 {
-        width: 320px;
-    }
+
 
     .main_header {
         border-color: aqua;
@@ -244,11 +242,13 @@
         left: 28px;
     }
 
+
     .button_34,
     .button_35 {
-        padding: 15px 31px;
-        font-size: 11px;
+        padding: 13px 27px;
+        font-size: 13px;
     }
+
 
     .tim {
         padding: 0;
@@ -265,10 +265,16 @@
         overflow-x: auto;
         overflow-y: hidden;
 
-        .card {
-            flex: 0 0 auto;
-        }
 
+    }
+
+    .card {
+        flex: 0 0 auto;
+    }
+
+    .ring-page {
+        flex-direction: column;
+        padding: 0;
     }
 
 
@@ -304,6 +310,8 @@
     .option_55 {
         width: 100%;
     }
+
+
 
 
 }

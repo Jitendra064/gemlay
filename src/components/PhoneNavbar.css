@@ -29,8 +29,8 @@
 
 .navbar-triangle {
     height: 23px;
-    background-color: #fff900;
-    /* width: 100vw; */
+
+    width: 103vw;
 }
 
 .triangle-one {
@@ -46,8 +46,9 @@
 
 /* scrolling name moving in css  */
 #scroll-container {
-    border-radius: 5px;
+    width: 100%;
     overflow: hidden;
+
 }
 
 #scroll-text {
