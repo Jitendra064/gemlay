@@ -2,7 +2,7 @@
 
 .navbar-header {
     height: 38px;
-    background-image: red;
+
     background-image: linear-gradient(to right, #080d2e,
             #33331cb5);
 }
@@ -17,19 +17,20 @@
 }
 
 
-.menu-item {}
+/* .menu-item {} */
 
 .logo-item a img {
     width: 160px;
 }
 
-.option-item img {}
+/* .option-item img {} */
 
 
 
 .navbar-triangle {
     height: 23px;
     background-color: #fff900;
+    /* width: 100vw; */
 }
 
 .triangle-one {

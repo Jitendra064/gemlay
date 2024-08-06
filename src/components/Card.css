@@ -68,7 +68,13 @@
 .footer_end {
     display: flex;
     color: #fff;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    justify-content: space-between;
 }
+
 
 .view-similar {
     position: relative;

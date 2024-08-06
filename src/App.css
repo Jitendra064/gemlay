@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    /* border: 1px solid; */
 }
 
 .phonenavbar {
@@ -12,59 +13,7 @@
     display: none;
 }
 
-@media (min-width:500px) and (max-width:1015px) {
-    /* body {
-        background-color: rgba(0, 0, 255, 0.285);
-    } */
 
-    .ring-page {
-        flex-direction: column;
-    }
-
-    .col90 {
-        height: 463px;
-    }
-
-    .card {
-        width: 300px;
-        margin-top: 16px;
-        border-radius: 27px;
-    }
-
-
-
-    .navbar-icon {
-        padding-right: 5px;
-        font-size: 13px;
-    }
-
-    .option_55 {
-        width: 221px;
-    }
-
-    .btn90 {
-        padding: 8px 16px;
-        font-size: 11px;
-    }
-
-    .ring-details {
-        height: 71vh;
-    }
-
-    .ring-image img {
-        width: 100%;
-    }
-
-    .symbol_slider {
-        left: 77%;
-        bottom: 5%;
-    }
-
-    .tim {
-        padding: 0;
-    }
-
-}
 
 @media (max-width:1300px) and (min-width: 1000px) {
     .option_55 {
@@ -84,17 +33,13 @@
 
 @media (max-width:1056px) and (min-width: 777px) {
 
-    .ring-page {
-        flex-direction: column;
-    }
+
 
     .icon_menu {
         padding-left: 21px;
     }
 
-    .ring-image img {
-        width: 100%;
-    }
+
 }
 
 @media (max-width:992px) and (min-width: 777px) {
@@ -155,16 +100,87 @@
     .phoneFooter {
         display: block;
     }
+
+    .ring-page {
+        flex-direction: column;
+    }
+
+    .icon_menu {
+        padding-left: 21px;
+    }
+
+    .ring-image img {
+        width: 100%;
+    }
+
+    .navbar-triangle {
+        height: 36px
+    }
+
+
+
+    /* second css  */
+
+
+    .card_body {
+
+        margin-top: 20px;
+    }
+
+    .ring-page {
+        flex-direction: column;
+    }
+
+    .col90 {
+        height: 463px;
+    }
+
+    .col90 img {
+        width: 300px;
+    }
+
+    .card {
+        width: 300px;
+        margin-top: 16px;
+        border-radius: 27px;
+    }
+
+
+
+    .navbar-icon {
+        padding-right: 5px;
+        font-size: 13px;
+    }
+
+    .option_55 {
+        width: 221px;
+    }
+
+    .btn90 {
+        padding: 8px 16px;
+        font-size: 11px;
+    }
+
+    .ring-details {
+        height: 71vh;
+    }
+
+    .ring-image img {
+        width: 100%;
+    }
+
+    .symbol_slider {
+        left: 77%;
+        bottom: 5%;
+    }
 }
 
-@media screen and (max-width:894px) {
+@media screen and (max-width:500px) {
 
     .allComponents {
-        /* border: 1px solid; */
-        position: relative;
-        left: 27px;
-        width: 100%;
-        background-color: antiquewhite;
+
+        width: 100vw;
+        /* background-color: antiquewhite; */
     }
 
     .destopNavbar {
@@ -202,11 +218,20 @@
     } */
 
     .col90 {
-        height: 34vh;
+        height: 47vh;
         width: 62vw;
         display: inline-block;
-        margin: 0px 9px;
+        margin: 0px 19px;
 
+    }
+
+    .symbol_slider {
+        left: 72%;
+        bottom: 0%;
+    }
+
+    .option_55 {
+        width: 320px;
     }
 
     .main_header {
@@ -229,6 +254,9 @@
         padding: 0;
     }
 
+    .col90 img {
+        width: 251px;
+    }
 
     /* horizontal card scrolling  */
     .row_item {
@@ -240,6 +268,42 @@
         .card {
             flex: 0 0 auto;
         }
+
     }
+
+
+}
+
+@media screen and (max-width:400px) {
+    .triangle-one {
+        background-image: linear-gradient(5deg, #080d2e 50%, white 50%);
+    }
+
+    .triangle-two {
+        background-image: linear-gradient(355deg, #080d2e 50%, white 50%);
+    }
+
+    .col90 {
+        height: 58vh;
+    }
+
+    .navbar-header {
+        width: 103vw;
+    }
+
+    .tabs button {
+        padding: 10px 9px;
+    }
+
+    .button_34,
+    .button_35 {
+        padding: 15px 22px;
+        font-size: 10px;
+    }
+
+    .option_55 {
+        width: 100%;
+    }
+
 
 }
