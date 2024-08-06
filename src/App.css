@@ -1,3 +1,9 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
 .phonenavbar {
     display: none;
 }
@@ -153,6 +159,13 @@
 
 @media screen and (max-width:894px) {
 
+    .allComponents {
+        /* border: 1px solid; */
+        position: relative;
+        left: 27px;
+        width: 100%;
+        background-color: antiquewhite;
+    }
 
     .destopNavbar {
         display: none;
@@ -173,7 +186,7 @@
 
     .ring-details {
         padding: 0;
-        width: 109%;
+        width: 100%;
     }
 
     .ring-page {
@@ -190,9 +203,9 @@
 
     .col90 {
         height: 34vh;
-        width: 47vw;
-        display: flex;
-        margin-top: 10px;
+        width: 62vw;
+        display: inline-block;
+        margin: 0px 9px;
 
     }
 
@@ -201,7 +214,9 @@
     }
 
     .buy-now {
-        width: 63%;
+        width: 55%;
+        padding: 6px 31px;
+        left: 28px;
     }
 
     .button_34,
@@ -212,6 +227,19 @@
 
     .tim {
         padding: 0;
+    }
+
+
+    /* horizontal card scrolling  */
+    .row_item {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+
+        .card {
+            flex: 0 0 auto;
+        }
     }
 
 }

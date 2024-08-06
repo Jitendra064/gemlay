@@ -12,7 +12,7 @@ const ProductCard = () => {
         </div>
 
         <div className="my-5">
-          <div className="row_item container-fluid">
+          <div className="row_item container-fluid ">
             <Card />
             <Card />
             <Card />

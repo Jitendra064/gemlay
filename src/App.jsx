@@ -14,7 +14,7 @@ import PhoneFooter from "./components/PhoneFooter";
 
 const App = () => {
   return (
-    <div>
+    <div className="allComponents">
       {/* Navbar components  */}
       <div className="destopNavbar">
         <Navbar />
